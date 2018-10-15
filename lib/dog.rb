@@ -17,7 +17,7 @@ class Dog
 
   def self.all
     @@all.each do |object|
-      puts "#{object.name}"
+      puts "#{object.name}" #is the .name here in reference to the def initialize (name) we created above?
     end
   end
 
