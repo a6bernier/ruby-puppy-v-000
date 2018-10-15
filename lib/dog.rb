@@ -17,7 +17,7 @@ class Dog
 
   def self.all
     @@all.each do |name|
-      if name == name.self
+      if name == Dog.name
         puts name
       end
     end
